@@ -66,3 +66,14 @@ start bash in docker container:
 
 `python inference.py -i gps_query_imgs/*.jpg -m base_M`
 
+
+
+## Or look at this Google Colab Notebool
+
+Link: `XXx.com`
+
+
+
+## Credits
+
+Partly taken and inspired by: `https://github.com/TIBHannover/GeoEstimation/blob/ba8a79492fe664be029145aab96774ca4a474b04/README.md`
