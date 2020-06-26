@@ -86,7 +86,7 @@ We want to predict the longitude and latitude of all the images in the IM2GPS te
 
 10. Make sure you startet a Terminal Session in your Docker Container as described in step 8.
 
-11. Execute the script `inference.py` and provided the command line arguments (-i: input images; -m: chosen model)
+11. Execute the script `inference.py` and provided the command line arguments (-i: input images; -m: chosen model):
 
     Run `python inference.py -i gps_query_imgs/*.jpg -m ISN` in your Terminal.
 
