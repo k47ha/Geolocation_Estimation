@@ -1,3 +1,3 @@
 [submodule "III_GeoEstimation_Hierarchical_Model/GeoEstimation"]
-	path = III_GeoEstimation_Hierarchical_Model/GeoEstimation
+	path = 03_GeoEstimation_Hierarchical_Model/GeoEstimation
 	url = https://github.com/TIBHannover/GeoEstimation.git
