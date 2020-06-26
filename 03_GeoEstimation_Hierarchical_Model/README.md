@@ -2,10 +2,8 @@
 
 The following instructions will guide you through the process of downloading the models of the repository [GeoEstimation](https://github.com/TIBHannover/GeoEstimation), downloading the [test data set of IM2GPS](http://graphics.cs.cmu.edu/projects/im2gps/) and making a prediction/inference for an image from the test data set.
 
-0. Clone the repository
+1. Navigate into the folder `GeoEstimation/`
 
-    `git clone https://github.com/TIBHannover/GeoEstimation.git`
-    
 
 ## Downloading the models
 
