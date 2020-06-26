@@ -70,7 +70,7 @@ start bash in docker container:
 
 ## Or look at this Google Colab Notebool
 
-Link: `XXx.com`
+Link: [Colab Notebook](https://colab.research.google.com/drive/1RblmA1350CfQBW8MtcS8T9ZOCcct9jf4?usp=sharing)
 
 
 
