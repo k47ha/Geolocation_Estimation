@@ -7,7 +7,7 @@ The following instructions will guide you through the process of downloading the
 
 ## Downloading the models
 
-In the [repository](https://github.com/TIBHannover/GeoEstimation) you will find a script `downloader.py` which should download all necessary models, weights and the scene hierarchy. But as there are problems with automatically extracting the following 3 models, they have to be extracted manually:
+In the [repository](https://github.com/TIBHannover/GeoEstimation) you will find a script `downloader.py` which should download all necessary models, weights and the scene hierarchy. But as there are problems with automatically extracting the following 3 models, they have to be extracted manually and put into a folder named `models`:
 
 1. Download and extract the following files manually and put them into a new folder called */resources*:
 - 'base_M.tar.gz'
@@ -29,7 +29,7 @@ tar xvf base_M.tar
 mv base_M.tar base_M.tar.gz
 ```
 
-1. Run the script `downloader.py ` (skip the 3 manually downloaded models).
+1. Run the script `downloader.py ` (skip/do not overwrite the manually downloaded models).
 
 2. Make sure the ResNet 152 model for scene classification trained on Places365 as well as the hierarchy file for scene-classification are saved in a folder called */resources*. Make sure the TensorFlow geolocation model files are saved in a new folder called */models*.
 
@@ -48,7 +48,7 @@ The repository provides a Docker image that takes care of meeting all requiremen
 
 6. Install Docker (the easy (a little bit unsafe) way)
    
-   Run `curl -fsSL https://get.docker.com -o get-docker.sh` in your Terminal.
+   Run `curl -fsSL https://get.docker.com -o get-docker.sh` in your Terminal. Then run `sh get-docker.sh`.
 
 7. Build the Docker image
     
