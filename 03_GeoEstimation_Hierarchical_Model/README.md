@@ -17,9 +17,16 @@ In the [repository](https://github.com/TIBHannover/GeoEstimation) you will find 
 - 'ISN_M_natural.tar.gz'
   - [https://github.com/TIBHannover/GeoEstimation/releases/download/v1.0/ISN_M_natural.tar.gz](https://github.com/TIBHannover/GeoEstimation/releases/download/v1.0/ISN_M_natural.tar.gz)
 
-2. Rename the old files to .tar.gz
 ```
-mv XXX base_M.tar.gz
+mv base_M.tar base_M.tar.gz
+```
+gunzip base_M.tar.gz
+tar xvf base_M.tar
+```
+
+1. Rename the old files to .tar.gz
+```
+mv base_M.tar base_M.tar.gz
 ```
 
 1. Run the script `downloader.py ` (skip the 3 manually downloaded models).
