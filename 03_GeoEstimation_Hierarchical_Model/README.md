@@ -94,12 +94,6 @@ We want to predict the longitude and latitude of all the images in the IM2GPS te
 
 
 
-## Or look at this Google Colab Notebook
-
-Link to the [Colab Notebook](https://colab.research.google.com/drive/1RblmA1350CfQBW8MtcS8T9ZOCcct9jf4?usp=sharing).
-
-
-
 ## Credits
 
 Partly taken and inspired by the ReadMe from (TIB Hannover GeoEstimation)[https://github.com/TIBHannover/GeoEstimation/blob/ba8a79492fe664be029145aab96774ca4a474b04/README.md].
